@@ -15388,5 +15388,148 @@
                 "Cooldown": 8
             }
         ]
-    }
+    },
+    "Seferh4n": {
+        "Type": "Splash",
+        "Image": "rbxassetid://127545392759275",
+        "Rarity": "Secret",
+        "PlacePrice": 300,
+        "Offset": 0,
+        "Max": 4,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 2500,
+                "Cooldown": 4
+            },
+            {
+                "Price": 500,
+                "Range": 22,
+                "Damage": 3100,
+                "Cooldown": 4
+            },
+            {
+                "Price": 800,
+                "Range": 23,
+                "Damage": 3500,
+                "Cooldown": 4
+            },
+            {
+                "Price": 1200,
+                "Range": 25,
+                "Damage": 4200,
+                "Cooldown": 4
+            }
+        ]
+    },
+    "Super Nova Freddy": {
+        "Type": "Cone AOE Slow + Poison",
+        "Image": "rbxassetid://115112471857811",
+        "Rarity": "Nightmare",
+        "PlacePrice": 550,
+        "Offset": 0,
+        "Max": 3,
+        "Passive": {"Name": "Stars!!!!", "Description": "Slows enemies by 20% and deals +80% damage in poison"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 250,
+                "Cooldown": 0.8,
+                "Poison": 500,
+                "PoisonLength": 1,
+                "Slow": 0.80,
+                "SlowTime": 3
+            },
+            {
+                "Price": 600,
+                "Range": 22,
+                "Damage": 350,
+                "Cooldown": 0.8,
+                "Poison": 500,
+                "PoisonLength": 1,
+                "Slow": 0.80,
+                "SlowTime": 3
+            },
+            {
+                "Price": 800,
+                "Range": 24,
+                "Damage": 400,
+                "Cooldown": 0.8,
+                "Poison": 500,
+                "PoisonLength": 1,
+                "Slow": 0.80,
+                "SlowTime": 3
+            },
+            {
+                "Price": 1000,
+                "Range": 28,
+                "Damage": 500,
+                "Cooldown": 0.8,
+                "Poison": 500,
+                "PoisonLength": 1,
+                "Slow": 0.80,
+                "SlowTime": 3
+            }
+        ]
+    },
+        "Cash Bag Freddy": {
+        "Type": "Nuke + Burn",
+        "Image": "rbxassetid://71025511025274",
+        "Rarity": "Nightmare",
+        "PlacePrice": 75000,
+        "Offset": 0,
+        "Max": 1,
+        "Passive": {"Name": "Moneeey!", "Description": "Drops an Cash Bag that deals 75x damage with 20% wither and 60% slow for 10 seconds every 40 seconds"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 35,
+                "Damage": 7000,
+                "Cooldown": 0.5,
+                "Burn": 5000,
+                "BurnTime": 0.5
+            },
+                        {
+                "Price": 90000,
+                "Range": 40,
+                "Damage": 8000,
+                "Cooldown": 0.5,
+                "Burn": 5000,
+                "BurnTime": 0.5
+            },
+                        {
+                "Price": 100000,
+                "Range": 45,
+                "Damage": 9000,
+                "Cooldown": 0.5,
+                "Burn": 5000,
+                "BurnTime": 0.5
+            },
+                        {
+                "Price": 111111,
+                "Range": 50,
+                "Damage": 10000,
+                "Cooldown": 0.5,
+                "Burn": 5000,
+                "BurnTime": 0.5
+            }
+        ]
+    },
 }
